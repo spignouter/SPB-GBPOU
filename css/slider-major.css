@@ -1,0 +1,41 @@
+.slider-major{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 1633px;
+  height: 417px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  margin: 30px auto;
+}
+
+
+.slider-header{
+  width: 249px;
+  height: 35px;
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  color: #282828;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.slider-pips{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 68px;
+  height: 12px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}

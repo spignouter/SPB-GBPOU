@@ -1,0 +1,164 @@
+.enrollee{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 145px;
+  width: 1633px;
+  height: 630px;
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.enrollee-left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 539px;
+  height: 630px;
+}
+
+.enrollee-right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 949px;
+  height: 618px;
+}
+
+.enrollee-left__item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 539px;
+  height: 187px;
+
+}
+
+.enrollee-left__title{
+  width: 402px;
+  height: 35px;
+  /* H1 */
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+  /* Графит/100 */
+  color: #282828;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  align-items: flex-start;
+  display: flex;
+}
+
+.enrollee-left__text{
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 48px 32px;
+  gap: 8px;
+  isolation: isolate;
+  width: 539px;
+  height: 144px;
+  /* Золотой/100 */
+  border: 1px solid #C4AD83;
+  border-radius: 2px;
+
+  font-family: 'Museo Sans 300 Light';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 144%;
+
+}
+
+.enrollee-right__title{
+  width: 187px;
+  height: 35px;
+  /* H1 */
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  /* Графит/100 */
+  color: #282828;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.enrollee-right__contener{
+  width: 949.43px;
+  height: 575px;
+  /* Inside auto layout */
+  position: relative;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.enrollee-right__item-one{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 537.57px;
+  height: 415.1px;
+  left: 0px;
+  top: 0px;
+  /* вм */
+  background: url(../img/Frame_museum.png);
+  /* Золотой/100 */
+  border: 1px solid #C4AD83;
+  border-radius: 2px;
+}
+
+.enrollee-right__item-two{
+  box-sizing: border-box;
+  position: absolute;
+  width: 537.57px;
+  height: 343.6px;
+  left: 411.43px;
+  top: 223px;
+
+  /* 44 */
+
+  background: url(../img/img_excursion.png);
+  /* Золотой/100 */
+
+  border: 1px solid #C4AD83;
+  border-radius: 2px;
+}
+
+.enrollee-right_item-three{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 10px;
+
+  position: absolute;
+  width: 503px;
+  height: 96px;
+  left: 2px;
+  bottom: 0px;
+
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(32px);
+}
