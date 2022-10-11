@@ -146,7 +146,7 @@
   border-radius: 2px;
 }
 
-.enrollee-right_item-three{
+.enrollee-right__item-three{
   display: flex;
   flex-direction: row;
   align-items: flex-start;

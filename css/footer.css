@@ -73,55 +73,55 @@ footer {
 }
 
 .footer-content_menue{
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 16px;
-width: 124px;
-height: 269px;
-/* Inside auto layout */
-flex: none;
-order: 3;
-flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 124px;
+  height: 269px;
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
 }
 
 .footer-content__contact-item{
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 8px;
-width: 369px;
-height: 46px;
-flex: none;
-order: 0;
-flex-grow: 0;
-font-family: 'Museo Sans 300 Light';
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 144%;
-color: #E9E9E9;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 369px;
+  height: 46px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-family: 'Museo Sans 300 Light';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 144%;
+  color: #E9E9E9;
 }
 
 .footer-content__title{
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 8px;
-width: 147px;
-height: 35px;    
-flex: none;
-order: 0;
-flex-grow: 0;
-font-family: 'Forum';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 35px;
-color: #E9E9E9;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 147px;
+  height: 35px;    
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  color: #E9E9E9;
 }
 
 .footer-content__education-item{
@@ -185,7 +185,7 @@ color: #E9E9E9;
   flex-grow: 0;
 }
 
-.copyright_item{
+.copyright__item{
   width: 800px;
   height: 23px;
   /* body */
