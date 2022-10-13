@@ -3,12 +3,24 @@
   min-height: 100%;
   overflow: hidden;
   flex-direction: column;
-  }
+}
 
-  .content {
-  margin: 0px auto;
+.content {
+  margin: 0px 0px;
   padding: 0px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  }
+}
+
+.forum-400{
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.museo-sans-300{
+  font-family: 'Museo Sans 300 Light';
+  font-style: normal;
+  font-weight: 300;
+}

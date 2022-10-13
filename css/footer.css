@@ -1,4 +1,4 @@
-footer {
+.footer {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -197,8 +197,18 @@ footer {
   /* identical to box height, or 23px */
   /* Кобальтовый/70 */
   color: #697FA9;
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+}
+
+.footer-link a {
+  color: #E8EAEE;
+  text-decoration: none;
+}
+
+.footer-link a:visited {
+  color: #E8EAEE;
+
+}
+
+.footer-link a:active{
+  color: #E8EAEE;
 }
