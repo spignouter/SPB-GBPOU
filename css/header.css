@@ -189,21 +189,6 @@
   color: #686868;
 }
 
-
-
-.header-main-link a {
-  color: #294985;
-}
-
-.header-main-link a:visited {
-  color: #294985;
-}
-
-.header-main-link a:active{
-  color: #294985;
-}
-
-
 .header-link a {
   color: #686868;
   text-decoration: none;
@@ -215,4 +200,16 @@
 
 .header-link a:active{
   color: #686868;
+}
+
+.header-main-link a {
+  color: #294985;
+}
+
+.header-main-link a:visited {
+  color: #294985;
+}
+
+.header-main-link a:active{
+  color: #294985;
 }
