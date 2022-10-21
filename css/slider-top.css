@@ -1,37 +1,128 @@
-/* .slider-one{
-width: 1920px;
-height: 633px;
-background: url(../img/Frame\ 37.png);
-} */
-
-
-.slider-one {box-sizing:border-box}
-
-/* Контейнер слайд-шоу */
-.slideshow-container {
-/* max-width: 1000px; */
-/* position: relative; */
-/* margin: auto; */
+.mySlides-top{
+  width: 1920px;
+  height: 633px;
 }
 
-/* Скрыть изображения по умолчанию */
-.mySlides {
+
+#mySlides-top__slider { /*положение слайдера*/
+  position: relative;
+  text-align: center;
+  top: 10px;
+}
+
+#mySlides-top__slider{ /*центровка слайдера*/
+  margin: 0 auto;
+}
+
+#mySlides-top__slides article{ /*все изображения справа друг от доруга*/
+  width: 20%;
+  float: left;
+}
+
+#mySlides-top__slides .mySlides-top__image{ /*устанавливает общий размер блока с изображениями*/
+  width: 500%;
+  line-height: 0;
+}
+
+#mySlides-top__overflow{ /*сркывает все, что находится за пределами этого блока*/
+  width: 100%;
+  overflow: hidden;
+}
+
+.mySlides-top__article img{ /*размер изображений слайдера*/
+  width: 100%;
+}
+
+#mySlides-top__desktop:checked ~ #mySlides-top__slider{ /*размер всего слайдера*/
+  max-width: 1902px; /*максимальнная длинна*/
+}
+
+/*настройка переключения и положения для левой стрелки*/
+/*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
+#mySlides-top__switch1:checked ~ #mySlides-top__controls .mySlides-top__label:nth-child(5), 
+#mySlides-top__switch2:checked ~ #mySlides-top__controls .mySlides-top__label:nth-child(1),
+#mySlides-top__switch3:checked ~ #mySlides-top__controls .mySlides-top__label:nth-child(2),
+#mySlides-top__switch4:checked ~ #mySlides-top__controls .mySlides-top__label:nth-child(3),
+#mySlides-top__switch5:checked ~ #mySlides-top__controls .mySlides-top__label:nth-child(4){
+  background: url('../img/prev.png') no-repeat; /*заливка фона картинкой без повторений*/
+  float: left;
+  margin: 0 0 0 10px;
+  display: block;
+  height: 68px;
+  width: 68px;
+}
+
+/*настройка переключения и положения для правой стрелки*/
+#mySlides-top__switch1:checked ~ #mySlides-top__controls .mySlides-top__label:nth-child(2), 
+#mySlides-top__switch2:checked ~ #mySlides-top__controls .mySlides-top__label:nth-child(3),
+#mySlides-top__switch3:checked ~ #mySlides-top__controls .mySlides-top__label:nth-child(4),
+#mySlides-top__switch4:checked ~ #mySlides-top__controls .mySlides-top__label:nth-child(5),
+#mySlides-top__switch5:checked ~ #mySlides-top__controls .mySlides-top__label:nth-child(1){
+  background: url('../img/next.png') no-repeat; /*заливка фона картинкой без повторений*/
+  float: right;
+  margin: 0 10px 0 0;
+  display: block;
+  height: 68px;
+  width: 68px;
+}
+
+.mySlides-top__label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+  cursor: pointer;
+}
+
+.mySlides-top input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
   display: none;
-  width: 1833px;
-  height: 635px;
-  background: url(../img/Frame\ 37.png) no-repeat;
-  background-size: auto;
-  background-size: 1833px;
 }
 
-.mySlides__box{
+/*позиция изображения при активации переключателя*/
+#mySlides-top__switch1:checked ~ #mySlides-top__slides .mySlides-top__image{
+  margin-left: 0;
+}
+
+#mySlides-top__switch2:checked ~ #mySlides-top__slides .mySlides-top__image{
+  margin-left: -100%;
+}
+
+#mySlides-top__switch3:checked ~ #mySlides-top__slides .mySlides-top__image{
+  margin-left: -200%;
+}
+
+#mySlides-top__switch4:checked ~ #mySlides-top__slides .mySlides-top__image{
+  margin-left: -300%;
+}
+
+#mySlides-top__switch5:checked ~ #mySlides-top__slides .mySlides-top__image{
+  margin-left: -400%;
+}
+
+#mySlides-top__controls{ /*положение блока всех управляющих элементов*/
+  margin: -350px 0 0 0;
+  width: 100%;
+  height: 50px;
+}
+
+
+#mySlides-top__slides .mySlides-top__image{ /*анимация пролистывания изображений*/
+  transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#mySlides-top__controls .mySlides-top__label:hover{ /*прозрачность стрелок при наведении*/
+  opacity: 0.6;
+}
+
+#mySlides-top__controls .mySlides-top__label{ /*прозрачность стрелок при отводе курсора*/
+  transition: opacity 0.2s ease-out;
+}
+
+
+.mySlides-top__box{
   width:491px; 
   height:605px;
   background: rgba(255, 255, 255, 0.01);
   backdrop-filter: blur(32px);
 }
 
-.mySlides__info{
+.mySlides-top__info{
   position: relative;
   width: 290px;
   height: 256px;
@@ -40,23 +131,21 @@ background: url(../img/Frame\ 37.png);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
-.mySlides__title{
+.mySlides-top__title{
   font-size: 32px;
   line-height: 35px;
   color: #F8F6F2;
-
 }
 
-.mySlides__text{
+.mySlides-top__text{
   color: #E9ECF2;
   font-size: 16px;
   line-height: 144%;
 }
 
-.mySlides__button{
+.mySlides-top__button{
   width: 290px;
   height: 39px;
   background: #294985;
@@ -67,89 +156,8 @@ background: url(../img/Frame\ 37.png);
   align-items: center;
 }
 
-.mySlides__more{
+.mySlides-top__more{
   color: #E9ECF2;
   font-size: 16px;
   line-height: 144%;
-}
-
-/* Вперед иназад кнопки */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 100%;
-  width: auto;
-  /* margin-top: -22px; */
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 40px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Положение "next кнопки" справа */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* При наведении курсора добавьте черный цвет фона с немного прозрачным */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Подпись текст */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Номер текста (1/3 и т.д.) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Точки/пули/индикаторы */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Исчезающая анимация */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
 }
