@@ -33,6 +33,11 @@
   width: 100%;
 }
 
+.mySlides-top__article__one{
+  background: url('../img/Frame\ 37.png') no-repeat; /*заливка фона картинкой без повторений*/
+
+}
+
 #mySlides-top__desktop:checked ~ #mySlides-top__slider{ /*размер всего слайдера*/
   max-width: 1902px; /*максимальнная длинна*/
 }
@@ -46,10 +51,11 @@
 #mySlides-top__switch5:checked ~ #mySlides-top__controls .mySlides-top__label:nth-child(4){
   background: url('../img/prev.png') no-repeat; /*заливка фона картинкой без повторений*/
   float: left;
-  margin: 0 0 0 10px;
+  margin: 0px 0px 0 70px;
   display: block;
   height: 68px;
   width: 68px;
+  position: relative;
 }
 
 /*настройка переключения и положения для правой стрелки*/
@@ -60,10 +66,11 @@
 #mySlides-top__switch5:checked ~ #mySlides-top__controls .mySlides-top__label:nth-child(1){
   background: url('../img/next.png') no-repeat; /*заливка фона картинкой без повторений*/
   float: right;
-  margin: 0 10px 0 0;
+  margin: 0 70px 0 0;
   display: block;
   height: 68px;
   width: 68px;
+  position: relative;
 }
 
 .mySlides-top__label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/

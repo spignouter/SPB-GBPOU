@@ -199,6 +199,13 @@
   color: #697FA9;
 }
 
+.footer-content__social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 192px;
+}
+
 .footer-link a {
   color: #E8EAEE;
   text-decoration: none;

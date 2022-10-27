@@ -35,12 +35,15 @@
 
 .introduction-box-two{
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
+  /* flex-direction: row; */
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
-  width: 1632px;
-  height: 172px;
+  justify-content: center;
+  /* width: 1632px;
+  height: 172px; */
+  /* flex-wrap: wrap; */
 }
 
 .introduction__box-item{
