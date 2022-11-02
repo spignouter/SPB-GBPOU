@@ -1,37 +1,27 @@
 .slider-major{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
-  width: 1633px;
-  height: 417px;
-  /* Inside auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+/* width: 1633px;
+height: 417px; */
+/* Inside auto layout */
 
-flex: none;
+/* flex: none;
 order: 4;
-flex-grow: 0;
+flex-grow: 0; */
 }
 
 .slider-major__title{
-  width: 249px;
+width: 249px;
 height: 35px;
-
-/* H1 */
-
 font-family: 'Forum';
 font-style: normal;
 font-weight: 400;
 font-size: 32px;
 line-height: 35px;
-
-/* Графит/100 */
-
 color: #282828;
-}
-
-.slider-major__box{
-
 }
 
 #slider-major__slider { /*положение слайдера*/
@@ -41,28 +31,28 @@ color: #282828;
 }
 
 #slider-major__slider{ /*центровка слайдера*/
-margin: 0 auto;
+  margin: 0 auto;
 }
 
 #slider-major__slides .slider-major__article{ /*все изображения справа друг от доруга*/
-width: 20%;
-float: left;
-/* test*/
-display: flex;
+  width: 20%;
+  float: left;
+  /* test*/
+  display: flex;
 }
 
 #slider-major__slides .slider-major__image{ /*устанавливает общий размер блока с изображениями*/
-width: 500%;
-line-height: 0;
+  width: 500%;
+  line-height: 0;
 }
 
 #slider-major__overflow{ /*сркывает все, что находится за пределами этого блока*/
-width: 100%;
-overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 
 .slider-major__article img{ /*размер изображений слайдера*/
-width: 100%;
+  width: 100%;
 }
 
 #slider-major__desktop:checked ~ #slider{ /*размер всего слайдера*/
@@ -76,59 +66,63 @@ width: 100%;
 #slider-major__switch3:checked ~ #controls label:nth-child(2),
 #slider-major__switch4:checked ~ #controls label:nth-child(3),
 #slider-major__switch5:checked ~ #controls label:nth-child(4){
-background: url('prev.png') no-repeat; /*заливка фона картинкой без повторений*/
-float: left;
-margin: 0 0 0 -84px; /*сдвиг влево*/
-display: block;
-height: 68px;
-width: 68px;
+  background: url('prev.png') no-repeat; /*заливка фона картинкой без повторений*/
+  float: left;
+  margin: 0 0 0 -84px; /*сдвиг влево*/
+  display: block;
+  height: 68px;
+  width: 68px;
 }
 
-.slider-major__article, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
-cursor: pointer;
+.slider-major__article a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+  cursor: pointer;
+}
+
+.slider-major__box{  
+  width: 1633px;
 }
 
 .slider-major__box input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
-display: none;
+  display: none;
 }
 
 /*позиция изображения при активации переключателя*/
 #slider-major__switch1:checked ~ #slider-major__slides .slider-major__image{
-margin-left: 0;
+  margin-left: 0;
 }
 
 #slider-major__switch2:checked ~ #slider-major__slides .slider-major__image{
-margin-left: -100%;
+  margin-left: -100%;
 }
 
 #slider-major__switch3:checked ~ #slider-major__slides .slider-major__image{
-margin-left: -200%;
+  margin-left: -200%;
 }
 
 #slider-major__switch4:checked ~ #slider-major__slides .slider-major__image{
-margin-left: -300%;
+  margin-left: -300%;
 }
 
 #slider-major__switch5:checked ~ #slider-major__slides .slider-major__image{
-margin-left: -400%;
+  margin-left: -400%;
 }
 
 #slider-major__active label{ /*стиль отдельного переключателя*/
-/* border-radius: 10px; скругление углов */
-display: inline-block; /*расположение в строку*/
-width: 15px;
-height: 15px;
-background: #294985;
+  /* border-radius: 10px; скругление углов */
+  display: inline-block; /*расположение в строку*/
+  width: 15px;
+  height: 15px;
+  background: #294985;
 }
 
 #slider-major__active{ /*расположение блока с переключателями*/
-/* margin: 23% 0 0; */
-text-align: center;
+  /* margin: 23% 0 0; */
+  text-align: center;
 }
 
 #slider-major__active label:hover{ /*поведение чекбокса при наведении*/
-background: #76c8ff;
-border-color: #777 !important; /*выполнение в любом случае*/
+  background: #76c8ff;
+  border-color: #777 !important; /*выполнение в любом случае*/
 }
 
 /*цвет активного лейбла при активации чекбокса*/
@@ -137,20 +131,20 @@ border-color: #777 !important; /*выполнение в любом случае
 #slider-major__switch3:checked ~ #slider-major__active label:nth-child(3),
 #slider-major__switch4:checked ~ #slider-major__active label:nth-child(4),
 #slider-major__switch5:checked ~ #slider-major__active label:nth-child(5){
-background: #18a3dd;
-border-color: #18a3dd !important;
+  background: #18a3dd;
+  border-color: #18a3dd !important;
 }
 
 #slider-major__slides .slider-major__image{ /*анимация пролистывания изображений*/
-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
 }
 
 #slider-major__controls label:hover{ /*прозрачность стрелок при наведении*/
-opacity: 0.6;
+  opacity: 0.6;
 }
 
 #slider-major__controls label{ /*прозрачность стрелок при отводе курсора*/
-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
 }
 
 .slider-major__slide-one{
@@ -171,3 +165,45 @@ transition: opacity 0.2s ease-out;
   background: url(../img/slider-major__slide-three.png);  
 
 }
+
+/* Для мобильной версии сайта */
+.slider-major-compact{
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-major-compact__slide-one{
+  width: 539px;
+  height: 322px;
+  background: url(../img/slider-major__slide-one.png);
+}
+
+.slider-major-compact__slide-two{
+  width: 539px;
+  height: 322px;
+  background: url(../img/slider-major__slide-two.png);  
+}
+
+.slider-major-compact__slide-three{
+  width: 539px;
+  height: 322px;
+  background: url(../img/slider-major__slide-three.png);  
+}
+
+@media (max-width: 700px) {
+  .slider-major__box{
+    display: none;
+  }
+}
+
+
+
+@media (min-width:700px) {
+  .slider-major-compact{
+    display: none;
+  }
+}
+
+
+
+/* Для мобильной версии сайта end */

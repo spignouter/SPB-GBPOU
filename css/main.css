@@ -13,14 +13,30 @@
   align-items: center;
 }
 
-.forum-400{
+.forum_400{
   font-family: 'Forum';
   font-style: normal;
   font-weight: 400;
 }
 
-.museo-sans-300{
+.museo-sans_300{
   font-family: 'Museo Sans 300 Light';
   font-style: normal;
   font-weight: 300;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:visited{
+  color: #686868;
+}
+
+.link:active{
+  color: #686868;
+}
+
+.color_cobalt{
+  color: #294985;
 }

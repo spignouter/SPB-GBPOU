@@ -3,6 +3,7 @@
 <head>
   <title>
   </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/slider-top.css">
@@ -17,36 +18,37 @@
   <div class="wrapper">
     <div class="content">
       <header class="header-info">
-        <div class="header-title">
-          <div class="header-logo">
-            <img src="img/logo901.png" alt="Логотип">
-          </div>
-          <div class="header-text">
-            <span class="header-text__one">Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение</span>
-            <span class="header-text__two">Политехнический колледж городского хозяйства</span>
-          </div>
-            <div class="header-service">
-              <div class="header-service__search">
-                <input type="text" placeholder="поиск по сайту">
-                <button type="submit"> </button>
-              </div>
-            <div class="header-service__language">
-              <div class="header-service__dropdown">
-                <span class="header-service__RU">RU</span>
-                <div class="header-service__dropdown-content">
-                  <a href="#">RU</a>
-                  <a href="#">EN</a>
+        <div class="heade-info-box">
+          <div class="header-info-title">
+            <div class="header-info-logo">
+              <img src="img/logo901.png" alt="Логотип">
+            </div>
+            <div class="header-info-text">
+              <span class="header-info-text__one">Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение</span>
+              <span class="header-info-text__two">Политехнический колледж городского хозяйства</span>
+            </div>
+              <div class="header-info-service">
+                <div class="header-info-service__search">
+                  <input type="text" placeholder="поиск по сайту">
+                  <button type="submit"> </button>
                 </div>
-              </div>  
-            </div>
-            <div class="header-service__vision">
-              <img src="img/icons-action-Vector.png" alt="Версия для слабовидящих">              
-            </div>
-            <div class="header-login">
-              <img src="img/login.png" alt="Войти на сайт с помощью логин паролья">
-            </div>
-            </div>
-        </div>
+              <div class="header-info-service__language">
+                <div class="header-info-service__dropdown">
+                  <span class="header-info-service__RU">RU</span>
+                  <div class="header-info-service__dropdown-content">
+                    <a href="#">RU</a>
+                    <a href="#">EN</a>
+                  </div>
+                </div>  
+              </div>
+              <div class="header-info-service__vision">
+                <img src="img/icons-action-Vector.png" alt="Версия для слабовидящих">              
+              </div>
+              <div class="header-info-login">
+                <img src="img/login.png" alt="Войти на сайт с помощью логин паролья">
+              </div>
+              </div>
+          </div>
           <nav class="header-menu header-link">
             <div class="header-menu__one">
               <span class="header-menu__item-main header-main-link"><a href="#">Главная</a></span>
@@ -65,8 +67,22 @@
               <span class="header-menu__item"><a href="#">ЦДО</a></span>
               <span class="header-menu__item"><a href="#">Информация</a></span>
             </div>
-            </nav>
+          </nav>
+        </div>
+        <div class="heade-info-box-compact">
+          <div class="heade-info-box-compact__logo">
+            <img src="./img/heade-info-box-compact__logo.png">
+          </div>
+          <div class="heade-info-box-compact__title">
+            Политехнический колледж городского хозяйства
+          </div>
+          <div class="heade-info-box-compact__hamburger">
+            <a href="#"><img src="./img/heade-info-box-compact__hamburger.png"></a>
+          </div>
+        </div>
+        
       </header>
+      <div class="slider-top">
         <div class="mySlides-top">
           <input checked type="radio" name="respond" id="mySlides-top__desktop">
           <article id="mySlides-top__slider">
@@ -82,10 +98,10 @@
                     <div class="mySlides-top__box">
                       <div class="mySlides-top__info">
                         <span class="mySlides-top__title forum-400"> Качественное образование </span>
-                        <span class="mySlides-top__text museo-sans-300">ПКГХ - многофункциональное 
+                        <span class="mySlides-top__text museo-sans_300">ПКГХ - многофункциональное 
                           и многопрофильное учебное заведение. Новое здание колледжа в Приморском районе - это современный учебный комплекс.</span>
                         <div class="mySlides-top__button">
-                          <span class="mySlides-top__more museo-sans-300">Подробнее</span>
+                          <span class="mySlides-top__more museo-sans_300">Подробнее</span>
                         </div>
                       </div>
                     </div>
@@ -106,22 +122,41 @@
             </div>
           </article>
         </div>
+        <div class="mySlides-top-compact">
+
+          <div class="mySlides-top-compact__image">
+            <img src="./img/mySlides-top-compact__image.png">
+          </div>
+
+          <div class="mySlides-top-compact__slider">
+            <img src="./img/mySlides-top-compact__slider.png">
+          </div>
+
+        </div>
+      </div>
       <div class="introduction">
           <div class="introduction-box-one">
             <span class="introduction__title">Политехнический колледж городского хозяйства - это многофункциональное и многопрофильное учебное заведение</span>
           </div>
           <div class="introduction-box-two">
-            <span class="introduction__box-item">В спортивный комплекс колледжа входят: бассейн, спортивный зал, 2 тренажерных зала, открытая площадка с футбольным полем. 
+            <span class="introduction__box-item museo-sans_300">
+              <img src="./img/man.png">
+              В спортивный комплекс колледжа входят: бассейн, спортивный зал, 2 тренажерных зала, открытая площадка с футбольным полем. 
             </span>
-            <span class="introduction__box-item">Новое здание в Приморском районе включает учебные кабинеты, оснащенные мультимедийным оборудованием.
+            <span class="introduction__box-item museo-sans_300">
+              <img src="./img/clock.png">
+              Новое здание в Приморском районе включает учебные кабинеты, оснащенные мультимедийным оборудованием.
             </span>
-            <span class="introduction__box-item">Основой стратегии - подготовка выпускников к работе в быстро меняющемся экономическом пространстве.
+            <span class="introduction__box-item museo-sans_300">
+              <img src="./img/people.png">
+              Основой стратегии - подготовка выпускников к работе в быстро меняющемся экономическом пространстве.
             </span>
-            <span class="introduction__box-item">В 2016, 2017 и 2018 году стал лауреатом конкурса «100 лучших вузов России».
+            <span class="introduction__box-item museo-sans_300">
+              <img src="./img/education.png">
+              В 2016, 2017 и 2018 году стал лауреатом конкурса «100 лучших вузов России».
             </span>
           </div>
       </div>
-      
       <div class="news">
         <div class="news-tabs">
 
@@ -135,8 +170,8 @@
               <div class="content1-news-tabs-info__one"> 
                 <div class="one-news-tabs-info__blur">
                   <div class="one-news-tabs-info__title forum-400">Экспофорум «Котлы и горелки – 2022»</div>
-                  <div class="one-news-tabs-info__date museo-sans-300">14 СЕНТЯБРЯ, 2022</div>
-                  <div class="one-news-tabs-info__text museo-sans-300">
+                  <div class="one-news-tabs-info__date museo-sans_300">14 СЕНТЯБРЯ, 2022</div>
+                  <div class="one-news-tabs-info__text museo-sans_300">
                     13 сентября для групп ТО-21-8 и ТО-21-9 по специальности «Теплоснабжение и теплотехническое оборудование» состоялось выездное занятие в Экспофоруме на специализированную выставку «Котлы и 
                   </div>
                 </div>
@@ -145,13 +180,13 @@
                 <div class="content1-news-tabs-info__three">
                   <div class="three-news-tabs-info__blur">
                     <div class="three-news-tabs-info__title forum-400">Санкт-Петербургский фестиваль национальных кухонь</div>
-                    <div class="three-news-tabs-info__date museo-sans-300">14 СЕНТЯБРЯ, 2022</div>
+                    <div class="three-news-tabs-info__date museo-sans_300">14 СЕНТЯБРЯ, 2022</div>
                   </div>
                 </div>
                 <div class="content1-news-tabs-info__four">
                   <div class="four-news-tabs-info__blur">
                     <div class="four-news-tabs-info__title forum-400">Реализация образовательных проектов в ЦДО в новом 2022</div>
-                    <div class="four-news-tabs-info__date museo-sans-300">14 СЕНТЯБРЯ, 2022</div>
+                    <div class="four-news-tabs-info__date museo-sans_300">14 СЕНТЯБРЯ, 2022</div>
                   </div>
                 </div>
               </div>
@@ -172,12 +207,11 @@
             </div>
           </section> 
           <div class="news__button">
-            <span class="news__more museo-sans-300">Посмотреть все</span>
+            <span class="news__more museo-sans_300">Посмотреть все</span>
           </div>
         </div>
 
       </div>
-
       <div class="enrollee">
           <div class="enrollee-left">
             <div class="enrollee-left__item">
@@ -185,6 +219,9 @@
                 <span class="enrollee-left__text">
                     <img src="img/hat.png" alt="#">Подготовительные курсы, формы обучения и другая информация для абитуриентов.
                 </span>
+                <div class="news__button">
+                  <span class="news__more museo-sans_300">Посмотреть все</span>
+                </div>
             </div>
             <div class="enrollee-left__item">
                 <div class="enrollee-left__title">Обучение</div>
@@ -193,7 +230,7 @@
                 </div>
             </div>
             <div class="enrollee-left__item">
-                <div class="enrollee-left__title">Центр доп.образования</div>
+                <div class="enrollee-left__title">Центр доп. образования</div>
                 <div class="enrollee-left__text">
                     <img src="img/hat.png" alt="#">Программы повышения квалификации и профессиональной переподготовки
                 </div>
@@ -201,11 +238,11 @@
       </div>
 
       <div class="enrollee-right">
-        <div class="enrollee-right__title">Фотоальбом</div>
+        <span class="enrollee-right__title forum-400">Фотоальбомы</span>
           <div class="enrollee-right__contener">
             <div class="enrollee-right__item-one"></div>
             <div class="enrollee-right__item-two">
-              <div class="enrollee-right__item-three">Виртуальная экскурсия</div>
+              <div class="enrollee-right__item-three forum-400"><a  href="#" >Виртуальная экскурсия</a></div>
             </div>
           </div>
       </div>
@@ -213,6 +250,7 @@
       <div class="slider-major">
         <span class="slider-major__title"> СПЕЦИАЛЬНОСТИ</span>
         <div class="slider-major__box">
+
           <input checked type="radio" name="respond" id="slider-major__desktop">
             <article id="slider-major__slider">
                 <input checked type="radio" name="slider" id="slider-major__switch1">
@@ -245,6 +283,14 @@
               </div>
             </article>
         </div>
+        <!-- Для мобильной версии сайта -->
+        <div class="slider-major-compact">
+          <div class="slider-major-compact__slide-one"></div>
+          <div class="slider-major-compact__slide-two"></div>
+          <div class="slider-major-compact__slide-three"></div>
+        </div>
+
+        <!-- Для мобильной версии сайта -->
       </div>
       <footer class="footer">
         <div class="footer-content">
@@ -315,7 +361,5 @@
       </footer>
     </div>
   </div>
-  <script src="script/slider-top.js"></script>
-
 </body>
 </html>

@@ -4,12 +4,8 @@
   align-items: flex-start;
   padding: 0px;
   gap: 145px;
-  width: 1633px;
-  height: 630px;
-  /* Inside auto layout */
-  flex: none;
-  order: 3;
-  flex-grow: 0;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .enrollee-left{
@@ -91,17 +87,10 @@
   width: 187px;
   height: 35px;
   /* H1 */
-  font-family: 'Forum';
-  font-style: normal;
-  font-weight: 400;
   font-size: 32px;
   line-height: 35px;
   /* Графит/100 */
   color: #282828;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .enrollee-right__contener{
@@ -153,12 +142,37 @@
   padding: 16px;
   gap: 10px;
 
+  font-size: 32px;
+  line-height: 35px;
+
   position: absolute;
   width: 503px;
   height: 96px;
   left: 2px;
   bottom: 0px;
 
+  color: #F8F6F2;
   background: rgba(255, 255, 255, 0.01);
   backdrop-filter: blur(32px);
 }
+
+.enrollee-right__item-three a{
+  text-decoration: none;
+}
+
+.enrollee-right__item-three a:visited {
+  color: #F8F6F2;
+}
+
+
+/* Для мобильной версии сайта */
+@media (max-width: 375px) {
+
+
+}
+
+@media (min-width:376px) {
+
+}
+
+/* Для мобильной версии сайта конец */
