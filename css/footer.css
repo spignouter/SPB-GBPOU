@@ -5,16 +5,9 @@
   align-items: center;
   padding: 64px 144px;
   gap: 64px;
-  width: 1920px;
-  height: 556px;
-  /* Сапфировый/100 */
   background: #21385F;
-  /* Золотой/100 */
   border-top: 1px solid #C4AD83;
-  /* Inside auto layout */
-  flex: none;
-  order: 5;
-  flex-grow: 0;
+
 }
 
 .footer-content{
@@ -23,25 +16,11 @@
   align-items: flex-start;
   padding: 0px;
   gap: 40px;
-  width: 1276.88px;
-  height: 317px;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .footer-content__logo{
   box-sizing: border-box;
-  width: 265px;
-  height: 293px;
-  /* background: url(../img/Brand_logo.png); */
-  /* Золотой/100 */
   border: 1px solid #C4AD83;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .footer-content__contact{
@@ -50,12 +29,6 @@
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-  width: 369px;
-  height: 317px;
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .footer-content__education{
@@ -64,12 +37,6 @@
   align-items: flex-start;
   padding: 0px;
   gap: 16px;
-  width: 398.88px;
-  height: 233px;
-  /* Inside auto layout */
-  flex: none;
-  order: 2;
-  flex-grow: 0;
 }
 
 .footer-content_menue{
@@ -78,12 +45,6 @@
   align-items: flex-start;
   padding: 0px;
   gap: 16px;
-  width: 124px;
-  height: 269px;
-  /* Inside auto layout */
-  flex: none;
-  order: 3;
-  flex-grow: 0;
 }
 
 .footer-content__contact-item{
@@ -92,11 +53,7 @@
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
-  width: 369px;
-  height: 46px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+
   font-family: 'Museo Sans 300 Light';
   font-style: normal;
   font-weight: 300;
@@ -111,11 +68,7 @@
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
-  width: 147px;
-  height: 35px;    
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+ 
   font-family: 'Forum';
   font-style: normal;
   font-weight: 400;
@@ -130,14 +83,7 @@
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
-  width: 398.88px;
-  height: 82px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  font-family: 'Museo Sans 300 Light';
-  font-style: normal;
-  font-weight: 300;
+
   font-size: 16px;
   line-height: 144%;
   color: #F8F6F2;
@@ -149,27 +95,16 @@
   align-items: flex-start;
   padding: 0px;
   gap: 16px;
-  width: 124px;
-  height: 269px;
-  /* Inside auto layout */
-  flex: none;
-  order: 3;
-  flex-grow: 0;
 }
 
 .footer-content__menue-item{
-  font-family: 'Museo Sans 300 Light';
-  font-style: normal;
-  font-weight: 300;
   font-size: 16px;
   line-height: 144%;
-  /* identical to box height, or 23px */
-  /* Сапфировый/10 */
-  color: #E8EAEE;
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+}
+
+.footer-line{
+  border: 1px solid rgba(196, 173, 131, 0.5);
+  width: 100%;
 }
 
 .copyright{
@@ -178,24 +113,11 @@
   align-items: center;
   padding: 0px;
   gap: 24px;
-  width: 1632px;
-  height: 47px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .copyright__item{
-  width: 800px;
-  height: 23px;
-  /* body */
-  font-family: 'Museo Sans 300 Light';
-  font-style: normal;
-  font-weight: 300;
   font-size: 16px;
   line-height: 144%;
-  /* identical to box height, or 23px */
-  /* Кобальтовый/70 */
   color: #697FA9;
 }
 
@@ -219,3 +141,22 @@
 .footer-link a:active{
   color: #E8EAEE;
 }
+
+/* Для мобильной версии сайта */
+@media (max-width: 375px) {
+  .footer-content{
+    flex-direction: column;
+  }
+/*   
+  .footer-line{
+    width: 300px;
+  } */
+
+
+}
+
+@media (min-width:376px) {
+
+}
+
+/* Для мобильной версии сайта конец */
