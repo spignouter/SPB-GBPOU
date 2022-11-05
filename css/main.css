@@ -37,6 +37,58 @@
   color: #686868;
 }
 
+.link_white {
+  text-decoration: none;
+}
+
+.link_white:visited{
+  color: #E9ECF2;}
+
+.link_white:active{
+  color: #E9ECF2;
+}
+
 .color_cobalt{
-  color: #294985;
+  color: #294985;}
+
+
+.text_span span{
+  text-align: center;
+  color: #EDE6D9;
+}
+
+.font_size-24{
+  font-size: 24px;
+}
+
+.font_height-26{
+  line-height: 26px;
+}
+
+.font_size-24_height-26{
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.font_size-32_height-35{
+  font-size: 32px;
+  line-height: 35px;
+}
+
+.font_size-16_height-144{
+  font-size: 16px;
+  line-height: 144%;
+}
+
+.button{
+  /* Кобальтовый/100 */
+  background: #294985;
+  /* Золотой/100 */
+  height: 39px;
+  box-sizing: border-box;
+/* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
