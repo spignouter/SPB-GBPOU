@@ -1,8 +1,11 @@
+.slider-top{
+
+}
+
 .mySlides-top{
   width: 1920px;
   height: 633px;
 }
-
 
 #mySlides-top__slider { /*положение слайдера*/
   position: relative;
@@ -73,7 +76,7 @@
   position: relative;
 }
 
-.mySlides-top__label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+.mySlides-top__label a{ /*при наведении на стрелки или переключатели - курсор изменится*/
   cursor: pointer;
 }
 
@@ -168,3 +171,27 @@
   font-size: 16px;
   line-height: 144%;
 }
+
+
+/* Для мобильной версии сайта */
+
+.mySlides-top-compact__slider{
+
+}
+
+@media (max-width: 375px) {
+  .mySlides-top{
+    display: none;
+  }
+
+
+}
+
+@media (min-width: 376px) {
+  .mySlides-top-compact{
+    display: none;
+  }
+
+}
+
+/* Для мобильной версии сайта конец */

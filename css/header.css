@@ -1,16 +1,24 @@
+
+
 .header-info{
+  /* width: 100%; */
+
+}
+
+.heade-info-box{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   padding: 24px 144px;
   gap: 32px;
   /* width: 1920px;
   height: 241.84px; */
   background: #FFFFFF;
   box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.08);
+
 }
 
-.header-title{
+.header-info-title{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -21,18 +29,18 @@
   height: 93.84px;
 }
 
-.header-logo {
+.header-info-logo {
 
 }
 
-.header-text{
+.header-info-text{
   display: flex;
   flex-direction: column;
   position: relative;
   right: 110px;
 }
 
-.header-text__one{
+.header-info-text__one{
   font-family: 'Museo Sans 300 Light';
   font-style: normal;
   font-weight: 300;
@@ -41,7 +49,7 @@
   color: #64748F;
 }
 
-.header-text__two{
+.header-info-text__two{
   font-family: 'Forum';
   font-style: normal;
   font-weight: 400;
@@ -50,7 +58,7 @@
   color: #64748F;
 }
 
-.header-service {
+.header-info-service {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -58,7 +66,7 @@
   height: 30px;
 }
 
-.header-service__language{
+.header-info-service__language{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -70,7 +78,7 @@
   background: #294985;
 }
 
-.header-service__RU {
+.header-info-service__RU {
   width: 22px;
   height: 19px;
   font-family: 'Museo Sans';
@@ -87,13 +95,13 @@
 }
 
 /* The container <div> - needed to position the dropdown content */
-.header-service__dropdown {
+.header-info-service__dropdown {
   position: relative;
   display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
-.header-service__dropdown-content {
+.header-info-service__dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -179,18 +187,10 @@
   height: 22px;
 }
 
-.header-menu__item{
-  font-family: 'Museo Sans 300 Light';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  color: #686868;
-}
-
 .header-link a {
-  color: #686868;
   text-decoration: none;
+  color: #686868;
+
 }
 
 .header-link a:visited {
@@ -212,3 +212,43 @@
 .header-main-link a:active{
   color: #294985;
 }
+
+
+/* Для мобильной версии сайта */
+.heade-info-box-compact{
+  display: flex;
+  width: 359px;
+  margin: 10px 0px;
+}
+
+.heade-info-box-compact__logo{
+  width: 59.96px;
+  height: 53.3px;
+
+}
+
+.heade-info-box-compact__title{
+  width: 24px;
+  height: 24px; 
+  flex-grow: 1;
+}
+
+.heade-info-box-compact__hamburger{
+
+}
+
+@media (max-width: 375px) {
+  .heade-info-box{
+    display: none;
+  }
+  
+}
+
+@media (min-width: 376px) {
+  .heade-info-box-compact{
+    display: none;
+  }
+  
+}
+
+/* Для мобильной версии сайта конец */

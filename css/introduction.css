@@ -12,14 +12,10 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  /* width: 1920px;
-  height: 523px; */
   filter: drop-shadow(0px 1px 7px rgba(190, 200, 218, 0.15));
 }
 
 .introduction-box-one{
-  width: 1045.09px;
-  height: 159px;
   text-align: center;
 }
 
@@ -36,19 +32,15 @@
 .introduction-box-two{
   display: flex;
   flex-flow: row wrap;
-  /* flex-direction: row; */
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
   justify-content: center;
-  /* width: 1632px;
-  height: 172px; */
-  /* flex-wrap: wrap; */
+
 }
 
 .introduction__box-item{
   box-sizing: border-box;
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -57,13 +49,42 @@
   gap: 16px;
   width: 402px;
   height: 172px;
-  /* Кобальтовый/30 */
   background: #BEC8DA;
   border-radius: 2px;
 
-  font-family: 'Museo Sans 300 Light';
-  font-style: normal;
-  font-weight: 300;
   font-size: 16px;
   line-height: 144%;
 }
+
+/* Для мобильной версии сайта */
+@media (max-width: 375px) {
+  .introduction__title{
+    width: 353.56px;
+    height: 130px;
+
+    /* H3 */
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+
+    /* Кобальтовый/100 */
+    color: #294985;
+  }
+
+  .introduction-box-one {
+    width: 382px;
+  }
+  .introduction__box-item{
+    width: 359px;
+  }
+
+}
+
+@media (min-width:376px) {
+
+}
+
+/* Для мобильной версии сайта конец */
