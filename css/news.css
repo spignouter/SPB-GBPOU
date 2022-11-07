@@ -1,12 +1,6 @@
 .news{
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* padding: 0px; */
-  /* gap: 24px; */
-  /* width: 1920px; */
-  /* height: 774.54px; */
-  /* background: url(../img/Frame_news.png); */
   margin: 20px 0px;
 }
 
@@ -16,12 +10,7 @@
   flex: 1 2 10%;
 }
 
-/* Вкладки */
-
- /* Базовый контейнер табов */
  .news-tabs {
-  /* min-width: 320px;
-  max-width: 800px; */
   padding: 0px;
   margin: 0 auto; 
 }
@@ -177,21 +166,14 @@ section {
 }
 
 .news__button{
-  width: 290px;
-  height: 39px;
+  width: 173px;
   background: #294985;
   border-radius: 2px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+  position: relative;
+  left: 1470px;
 }
 
 .news__more{
-  color: #E9ECF2;
-  font-size: 16px;
-  line-height: 144%;
 }
 
 /* изменения стиля заголовков вкладок при наведении */

@@ -4,13 +4,6 @@ flex-direction: column;
 align-items: center;
 padding: 0px;
 gap: 24px;
-/* width: 1633px;
-height: 417px; */
-/* Inside auto layout */
-
-/* flex: none;
-order: 4;
-flex-grow: 0; */
 }
 
 .slider-major__title{
@@ -19,9 +12,6 @@ height: 35px;
 font-family: 'Forum';
 font-style: normal;
 font-weight: 400;
-font-size: 32px;
-line-height: 35px;
-color: #282828;
 }
 
 #slider-major__slider { /*положение слайдера*/
@@ -148,57 +138,91 @@ color: #282828;
 }
 
 .slider-major__slide-one{
+  position: relative;
   width: 539px;
   height: 322px;
-  background: url(../img/slider-major__slide-one.png);
 }
 
 .slider-major__slide-two{
+  position: relative;
   width: 539px;
   height: 322px;
-  background: url(../img/slider-major__slide-two.png);  
 }
 
 .slider-major__slide-three{
+  position: relative;
   width: 539px;
   height: 322px;
-  background: url(../img/slider-major__slide-three.png);  
+}
 
+.slider-major__blure{
+  position: absolute;
+  width: 539px;
+  height: 84px;
+  left: 0px;
+  top: 121px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(32px);
 }
 
 /* Для мобильной версии сайта */
-.slider-major-compact{
-  display: flex;
-  flex-direction: column;
-}
 
-.slider-major-compact__slide-one{
-  width: 539px;
-  height: 322px;
-  background: url(../img/slider-major__slide-one.png);
-}
 
-.slider-major-compact__slide-two{
-  width: 539px;
-  height: 322px;
-  background: url(../img/slider-major__slide-two.png);  
-}
-
-.slider-major-compact__slide-three{
-  width: 539px;
-  height: 322px;
-  background: url(../img/slider-major__slide-three.png);  
-}
-
-@media (max-width: 700px) {
+@media (max-width: 375px) {
   .slider-major__box{
     display: none;
   }
+  .slider-major-compact{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .slider-major-compact__slide-one{
+    position: relative;
+    width: 359px;
+    height: 322px;
+  }
+  
+  .slider-major-compact__slide-two{
+    position: relative;
+    width: 359px;
+    height: 322px;
+  }
+  
+  .slider-major-compact__slide-three{
+    position: relative;
+    width: 359px;
+    height: 322px;
+  }
+
+  .slider-major-compact__blure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 359px;
+    height: 84px;
+    left: 0px;
+    top: 121px;
+
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(32px);
+
+  }
+
 }
 
-
-
-@media (min-width:700px) {
+@media (min-width:376px) {
   .slider-major-compact{
     display: none;
   }
