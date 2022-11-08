@@ -164,7 +164,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
-  text-decoration-line: underline;
+  text-decoration: underline;
   color: #294985;
 }
 
@@ -187,31 +187,23 @@
   height: 22px;
 }
 
-.header-link a {
+.header-main-link{
+  color: #294985;
+}
+
+.header-main-link:visited {
+  color: #294985;
+}
+
+.header-main-link:active{
+  color: #294985;
+}
+
+.header-main-link:hover{
+  color: #686868;
   text-decoration: none;
-  color: #686868;
-
 }
 
-.header-link a:visited {
-  color: #686868;
-}
-
-.header-link a:active{
-  color: #686868;
-}
-
-.header-main-link a {
-  color: #294985;
-}
-
-.header-main-link a:visited {
-  color: #294985;
-}
-
-.header-main-link a:active{
-  color: #294985;
-}
 
 
 /* Для мобильной версии сайта */

@@ -1,3 +1,6 @@
+/* TODO: комментарии в коде */
+/* NOTE:  */
+
 .wrapper {
   display: flex;
   min-height: 100%;
@@ -30,7 +33,6 @@
 }
 
 .H3{
-  /* H3 */
 font-family: 'Forum';
 font-style: normal;
 font-weight: 400;
@@ -40,7 +42,7 @@ text-align: center;
 }
 
 .body_thin{
-  font-family: 'Museo Sans';
+  font-family: 'Museo Sans 300 Light';
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -49,7 +51,7 @@ text-align: center;
 
 .body_bold{
   /* bodyBold */
-  font-family: 'Museo Sans';
+  font-family: 'Museo Sans 300 Light';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -59,6 +61,7 @@ text-align: center;
 .line{
   height: 0px;
   border: 1px solid #C4AD83;
+  align-self: stretch;
 }
 
 .forum_400{
@@ -85,7 +88,12 @@ text-align: center;
   color: #686868;
 }
 
-.link_white {
+.link:hover{
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.link_white{
   text-decoration: none;
 }
 
@@ -97,6 +105,18 @@ text-align: center;
   color: #E9ECF2;
 }
 
+.link_gold_30{
+  text-decoration: none;
+}
+
+.link_gold_30:visited{
+  color: #EDE6D9;
+}
+
+.link_gold_30:active{
+  color: #EDE6D9;
+}
+
 .color_cobalt{
   color: #294985;
 }
@@ -105,6 +125,9 @@ text-align: center;
   color: #E9E9E9;
 }
 
+.color_gold_70{
+  color: #D5C5A8;
+}
 
 
 .text_span span{
