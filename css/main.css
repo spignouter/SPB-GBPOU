@@ -93,6 +93,27 @@ text-align: center;
   text-decoration: underline;
 }
 
+
+
+
+.link-sapphire_30 {
+  text-decoration: none;
+}
+
+.link-sapphire_30:visited{
+  color: #BBC2CE;
+}
+
+.link-sapphire_30:active{
+  color: #BBC2CE;
+}
+
+.link-sapphire_30:hover{
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+
 .link_white{
   text-decoration: none;
 }
@@ -121,13 +142,26 @@ text-align: center;
   color: #294985;
 }
 
+.color-cobalt_70{
+  color: #294985;
+}
+
 .color_graphite_10{
   color: #E9E9E9;
 }
 
 .color_gold_70{
-  color: #D5C5A8;
+  color: #697FA9;
 }
+
+.color-sapphire_10{
+  color: #E8EAEE;
+}
+
+.color-sapphire_30{
+  color: #BBC2CE;
+}
+
 
 
 .text_span span{
@@ -169,4 +203,8 @@ text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.text_pointer{
+  cursor: pointer;
 }
