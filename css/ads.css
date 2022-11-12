@@ -12,14 +12,17 @@
 
 .news-tabs {
   padding: 0px;
-  margin: 0 auto; 
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: self-end;
 }
 
 
 /* Вкладка новости 1 */
 .content1-news-tabs-info{
   display: flex;
-
 }
 
 .content1-news-tabs-info__one{
@@ -157,10 +160,7 @@
 
 .news__button{
   width: 173px;
-  background: #294985;
   border-radius: 2px;
-  position: relative;
-  left: 1470px;
 }
 
 .news__more{

@@ -33,12 +33,12 @@
 }
 
 .H3{
-font-family: 'Forum';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 26px;
-text-align: center;
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
 }
 
 .body_thin{
@@ -93,9 +93,6 @@ text-align: center;
   text-decoration: underline;
 }
 
-
-
-
 .link-sapphire_30 {
   text-decoration: none;
 }
@@ -112,7 +109,6 @@ text-align: center;
   color: #0056b3;
   text-decoration: underline;
 }
-
 
 .link_white{
   text-decoration: none;
@@ -146,6 +142,10 @@ text-align: center;
   color: #294985;
 }
 
+.color_white{
+  color: #FFFFFF;
+}
+
 .color_graphite_10{
   color: #E9E9E9;
 }
@@ -160,6 +160,10 @@ text-align: center;
 
 .color-sapphire_30{
   color: #BBC2CE;
+}
+
+.color-sapphire_100{
+  color: #21385F;
 }
 
 
