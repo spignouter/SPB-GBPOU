@@ -1,18 +1,14 @@
 
 
 .header-info{
-  /* width: 100%; */
 
 }
 
 .heade-info-box{
   display: flex;
   flex-direction: column;
-  /* align-items: flex-start; */
   padding: 24px 144px;
   gap: 32px;
-  /* width: 1920px;
-  height: 241.84px; */
   background: #FFFFFF;
   box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.08);
 
@@ -94,13 +90,11 @@
   cursor: pointer;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .header-info-service__dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .header-info-service__dropdown-content {
   display: none;
   position: absolute;
@@ -118,7 +112,6 @@
   background: url('https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png') no-repeat left center;
 }
 
-/* Links inside the dropdown */
 .header-service__dropdown-content a {
   color: black;
   padding: 2px 0 2px 25px;
@@ -126,14 +119,12 @@
   display: block;
 }
 
-/* Change color of dropdown links on hover */
 .header-service__dropdown-content a:hover {
   background-color: #f1f1f1;
 }
 
-/* Show the dropdown menu on hover */
 .header-service__dropdown:hover .header-service__dropdown-content {
-    display: block;
+  display: block;
 }
 
 .header-menu{

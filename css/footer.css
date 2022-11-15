@@ -7,7 +7,6 @@
   gap: 64px;
   background: #21385F;
   border-top: 1px solid #C4AD83;
-
 }
 
 .footer-content{
@@ -53,7 +52,6 @@
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
-
   font-family: 'Museo Sans 300 Light';
   font-style: normal;
   font-weight: 300;
@@ -128,18 +126,23 @@
   width: 192px;
 }
 
-.footer-link a {
+.footer-link{
   color: #E8EAEE;
   text-decoration: none;
 }
 
-.footer-link a:visited {
+.footer-link:visited {
   color: #E8EAEE;
 
 }
 
-.footer-link a:active{
+.footer-link:active{
   color: #E8EAEE;
+}
+
+.footer-link:hover{
+  color: #0056b3;
+  text-decoration: underline;
 }
 
 /* Для мобильной версии сайта */
@@ -147,16 +150,9 @@
   .footer-content{
     flex-direction: column;
   }
-/*   
-  .footer-line{
-    width: 300px;
-  } */
-
-
 }
 
 @media (min-width:376px) {
-
 }
 
 /* Для мобильной версии сайта конец */

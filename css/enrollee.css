@@ -90,7 +90,7 @@
   left: 0px;
   top: 0px;
   /* вм */
-  background: url(../img/Frame_museum.png);
+  background: url(../img/enrollee/enrollee-right__item-one.png);
   /* Золотой/100 */
   border: 1px solid #C4AD83;
   border-radius: 2px;
@@ -106,9 +106,39 @@
 
   /* 44 */
 
-  background: url(../img/img_excursion.png);
+  background: url(../img/enrollee/enrollee-right__item-two.png);
   /* Золотой/100 */
 
+  border: 1px solid #C4AD83;
+  border-radius: 2px;
+}
+
+.enrollee-right-compact{
+
+}
+
+.enrollee-right-compact__item-one{
+  box-sizing: border-box;
+  width: 359px;
+  height: 277px;
+  left: 0px;
+  top: 0px;
+  /* вм */
+  background: url(../img/enrollee/enrollee-right-compact__item-one.png);
+  /* Золотой/100 */
+  border: 1px solid #C4AD83;
+  border-radius: 2px;
+}
+
+.enrollee-right-compact__item-two{
+  box-sizing: border-box;
+  width: 359px;
+  height: 230px;
+  left: 411.43px;
+  top: 223px;
+  /* 44 */
+  background: url(../img/enrollee/enrollee-right-compact__item-two.png);
+  /* Золотой/100 */
   border: 1px solid #C4AD83;
   border-radius: 2px;
 }
@@ -163,6 +193,11 @@
 
 /* Для мобильной версии сайта */
 @media (max-width: 375px) {
+
+  .enrollee{
+    gap: 25px;
+  }
+
   .enrollee-left__text{
     width: 359px;
     height: 126px;
@@ -184,10 +219,20 @@
     padding: 15px 13px;
   }
 
+  .enrollee-right__contener{
+    display: none;
+  }
 
+  .enrollee-right{
+
+  }
 }
 
 @media (min-width:376px) {
+
+  .enrollee-right-compact{
+    display: none;
+  }
 
 }
 
