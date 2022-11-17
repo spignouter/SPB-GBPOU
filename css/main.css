@@ -51,7 +51,7 @@
 
 .body_bold{
   /* bodyBold */
-  font-family: 'Museo Sans 300 Light';
+  font-family: 'Museo Sans 500';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -151,6 +151,10 @@
   color: #E9E9E9;
 }
 
+.color_graphite_70{
+  color: #686868;
+}
+
 .color_gold_70{
   color: #697FA9;
 }
@@ -211,3 +215,35 @@
 .text_pointer{
   cursor: pointer;
 }
+
+.flex-box_row{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-box_column{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.gap_8{
+  gap: 8px;
+}
+
+.gap_15{
+  gap: 16px;
+}
+
+.gap_15{
+  gap: 16px;
+}
+
+.gap_24{
+  gap: 24px;
+}
+
+.gap_40{
+  gap: 40px;
+}
+
