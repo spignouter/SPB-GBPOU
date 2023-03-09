@@ -36,7 +36,7 @@
   width: 100%;
 }
 
-.mySlides-top__article__one{
+.mySlides-top-article__one{
   background: url('../img/Frame\ 37.png') no-repeat; /*заливка фона картинкой без повторений*/
 
 }
@@ -124,6 +124,7 @@
   transition: opacity 0.2s ease-out;
 }
 
+/* содержимое слайдера one*/
 
 .mySlides-top__box{
   width:491px; 
@@ -171,6 +172,7 @@
   font-size: 16px;
   line-height: 144%;
 }
+/* Конец содержимое слайдера one*/
 
 
 /* Для мобильной версии сайта */

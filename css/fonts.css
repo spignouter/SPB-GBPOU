@@ -34,14 +34,14 @@
 }
 
 @font-face {
-    font-family: 'Museo Sans';  
+    font-family: 'Museo Sans 500';  
     src: url('../fonts/MuseoSans_500.otf') format('opentype'); 
     font-style: normal; 
     font-weight: 500;
 }
 
 @font-face {
-    font-family: 'Museo Sans';  
+    font-family: 'Museo Sans 700';  
     src: url('../fonts/MuseoSans_700.otf') format('opentype'); 
     font-style: normal; 
     font-weight: 700;
